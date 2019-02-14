@@ -11,6 +11,7 @@ html {
 body {
   height: 100%;
   font-family: $main-font;
+  background: #f6f6f6;
  }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; }
@@ -53,7 +54,6 @@ button { outline: none; }
 
 .container {
   margin: 0 auto;
-  padding: 0 100px;
   max-width: $content-size;
   width: 100%;
 }

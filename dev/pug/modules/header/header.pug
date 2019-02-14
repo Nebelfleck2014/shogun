@@ -1,4 +1,9 @@
 header.header
   .header-main
-    include ../navigation/main-nav
-  .user-nav.header-top__user-nav ktk
+    .container
+      .logo
+        <img src="http://x-lines.ru/letters/i/cyrillicgothic/2261/bfffb6/44/0/kpwg635ipa.png">
+      include ../navigation/main-nav
+      .search.header-main__search
+        input(placeholder="Введите текст для поиска").input-field
+      include ../social/social-media.pug

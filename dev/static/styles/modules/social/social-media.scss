@@ -1,0 +1,16 @@
+.social-media {
+  &__list {
+    display: flex;
+  }
+  &__item {
+    padding: 10px;
+    margin: auto;
+  }
+  &__link {
+    display: flex;
+  }
+  &__icon {
+    background-color:#4a4a4a;
+    border-radius: 50%;
+  }
+}
