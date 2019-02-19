@@ -16,7 +16,25 @@
     padding: 20px 0;
 }
 
+.search {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  height: 35px;
+}
+
+.input-field {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: $white;
+  height: 35px;
+  border: solid 1px #dedede;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
 }
+

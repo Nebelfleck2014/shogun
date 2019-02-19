@@ -4,6 +4,8 @@ header.header
       .logo
         <img src="http://x-lines.ru/letters/i/cyrillicgothic/2261/bfffb6/44/0/kpwg635ipa.png">
       include ../navigation/main-nav
-      .search.header-main__search
-        input(placeholder="Введите текст для поиска").input-field
+      .search.main-search
+        input(placeholder="Поиск").input-field
+        button.main-search__button
+          img(src="static/images/svg/search-button.svg" height="12" type="submit")
       include ../social/social-media.pug
